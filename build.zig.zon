@@ -1,0 +1,10 @@
+.{
+    .name = "hertz-hero",
+    .version = "0.1.0",
+    .dependencies = .{
+        .zgui = .{ .url = "https://github.com/zig-gamedev/zgui/archive/main.tar.gz" },
+        .zglfw = .{ .url = "https://github.com/zig-gamedev/zglfw/archive/main.tar.gz" },
+        .zopengl = .{ .url = "https://github.com/zig-gamedev/zopengl/archive/main.tar.gz" },
+    },
+    .paths = .{ "" },
+}
